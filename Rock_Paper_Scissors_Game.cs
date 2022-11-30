@@ -1,15 +1,10 @@
-using System;
-
-namespace RockPaperScissors
+while (true)
 {
-    class Program
+    Console.WriteLine("Enter Rock, Paper or Scissors (or Quit to exit): ");
+    userChoice = Console.ReadLine();
+
+    if (userChoice.ToLower() == "quit")
     {
-        static void Main(string[] args)
-        {
-            string[] choices = { "Rock", "Paper", "Scissors" };
-            Random rand = new Random();
-            string computerChoice, userChoice;
-            int computerScore = 0, userScore = 0;
-        }
+        break;
     }
 }
